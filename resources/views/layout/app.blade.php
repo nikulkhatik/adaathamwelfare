@@ -505,7 +505,7 @@
 <div id="footer_wrapper" style="position: fixed;bottom: 0;left: 0;right: 0;">
     <div id="footer">
         Copyright © 2012
-        <a href="http://www.adaathamwelfare.org">Shree Ada Atham Mewada Welfare Trust.</a> | Des!gned by <a
+        <a href="{{route('home')}}">Shree Ada Atham Mewada Welfare Trust.</a> | Des!gned by <a
             href="http://www.shivshaktisoftware.com" target="_parent">Nice Infotech Mo. 9426405536,9925077802 Ph.
             02772-230136</a>
         <div class="cleaner"></div>

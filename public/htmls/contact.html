@@ -22,7 +22,7 @@
 }
 .auto-style2 {
 	color: #720909;
-	
+
 }
 .auto-style3 {
 	clear: both;
@@ -80,9 +80,9 @@
 
 </div>
 </div></div>
-    	
+
     </div><!-- end of header -->
-    
+
     <div id="left_sidebar">
     	<div class="sb_box">
           <div class="content_title"><span></span>મેનુ</div>
@@ -96,11 +96,11 @@
                  <li><a href="photoga.html">ફોટો ગેલેરી</a></li>
                 <li><a href="contact.html" class="current"">સંપર્ક</a></li>
             </ul>
-		</div>        
+		</div>
         <a href="#" class="sb_ads"><img src="images/ad_1.jpg" alt="image 1" /></a>
         <a href="#" class="sb_ads"><img src="images/ad_2.jpg" alt="image 2" /></a>
     <a href="#" class="sb_ads"><img src="images/ad_3.jpg" alt="image 3" /></a>
-    
+
     <!-- BEGIN: Powered by Supercounters.com -->
 		<div class="auto-style13" style="height: 29px">
 			<strong>Total Visitors</strong><script type="text/javascript" src="Scripts/hit.js"></script>
@@ -112,45 +112,45 @@
 <!-- END: Powered by Supercounters.com -->
 
     </div> <!-- end of left sidebar -->
-    
+
     <div id="content">
     	<div class="content_title"><span></span>તમારી માહિતી મોકલો...</div>
         <div class="cleaner h20"></div>
        	<div id="contact_form">
-        
+
 <!-- <form name="contact.html" method="post" action="sendmail.php"> -->
 <form name="contact.html" method="post" action="sendmail.php">
-                        
+
 				<label for="name">નામ:</label>
 				<input type="text" id="name" name="name" class="required input_field" />
 				<div class="cleaner h10"></div>
-				
+
 				<label for="from">ઈ - મેઇલ:</label>
 				<input type="text" id="email" name="from" class="validate-email required input_field" />
 				<div class="cleaner h10"></div>
-				
+
 				<label for="subject">વિષય:</label>
 				<input type="text" name="subject" id="subject" class="input_field" />
 				<div class="cleaner h10"></div>
-        
+
 				<label for="message">માહિતી:</label>
 				<textarea id="text" name="message" rows="0" cols="0" class="required"></textarea>
 				<div class="cleaner h10"></div>
-                        
-				<input type="submit" value="મોકલો" id="submit" name="submit" class="submit_btn float_l" />  <a href="adaathamwelfare.org/sendmail.php"></a> 
+
+				<input type="submit" value="મોકલો" id="submit" name="submit" class="submit_btn float_l" />  <a href="adaathamwelfare.org/sendmail.php"></a>
 				<input type="reset" value="ફરીથી" id="reset" name="reset" class="submit_btn float_l" />
 			</form>
 	  <div class="cleaner h20"></div>
    	  </div>
-        
+
         <div class="cleaner"></div>
         <h3 class="auto-style1">Our Location</h3>
-        
+
       <iframe width="300" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=J+u+n+a+Bazar+Road,+Himmatnagar,+Gujarat+383001,+India&amp;aq=0&amp;oq=BAZAR++HIMMATNAGAR-383001+GUJARAT+INDIA&amp;sll=20.593684,78.96288&amp;sspn=48.749047,56.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Dhargah+Rd,+Himatnagar,+Sabarkatha,+Gujarat&amp;t=m&amp;z=14&amp;ll=23.598379,72.961901&amp;output=embed"></iframe>
   	  <br />
 		<br />
   </div> <!-- end of content -->
-    
+
     <div id="right_sidebar">
     	<div class="content_title"><span></span>ઓફીસ એડ્રેસ</div>
         <div class="news_box">
@@ -160,9 +160,9 @@
                       હિમ્મતનગર - ૩૮૩૦૦૧, સાબરકાંઠા<br />ફોન : ૦૨૭૭૨ -  <br />
                 મો. : +૯૧ - ૯૯ ૭૪ ૦૯ ૨૨ ૫૧ <br />
              મો. : +૯૧ - ૯૯ ૦૯ ૧૮ ૦૭ ૬૦ <br />
-                Email: 
+                Email:
 			<a href="mailto:adaathamwelfare@gmail.com" class="auto-style2">adaathamwelfare@gmail.com</a><br/>
-                Url:</span><a href="http://www.adaathamwelfare.org"><span class="auto-style6">http://www.adaathamwelfare.org</span></a>
+                Url:</span><a href="{{route('home')}}"><span class="auto-style6">{{route('home')}}</span></a>
             </p>
 		</div>
         <div class="news_box">
@@ -185,16 +185,16 @@
 		</div>
                 <div id="special_box" style="left: 0px; top: 0px; height: 221px">
             <a href="http://www.khojgujarat.com"><img src="images/image_04.png" alt="Christmas Gift" height="221" width="235" /></a>
-            </div>	
+            </div>
     </div> <!-- end of right sidebar -->
 
-    
+
 </div> <!-- end of wrapper -->
 
 <div id="footer_wrapper">
     <div id="footer" style="height: 36px">
         Copyright © 2012
-		<a href="http://www.adaathamwelfare.org">Shree Ada Atham Mewada Welfare Trust.</a> | Des!gned by <a href="http://www.skynettechnologies.in" target="_parent">SkyNet Technologies.</a>
+		<a href="{{route('home')}}">Shree Ada Atham Mewada Welfare Trust.</a> | Des!gned by <a href="http://www.skynettechnologies.in" target="_parent">SkyNet Technologies.</a>
         <div class="cleaner"></div>
     </div>
 </div>
