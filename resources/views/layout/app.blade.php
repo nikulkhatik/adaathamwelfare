@@ -44,6 +44,12 @@
             width: 300px;
             height: 300px;
         }
+
+        UL.dropdown LI:hover > A.dir {
+            BACKGROUND-COLOR: #a5020a;
+            HEIGHT: 100% !important;
+            COLOR: #fff;
+        }
     </style>
 
     <script type="text/javascript">
