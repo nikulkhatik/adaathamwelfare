@@ -1,0 +1,376 @@
+﻿
+
+body 
+{
+ 
+}
+
+#loginform {
+padding: 3px;
+border: 1px solid rgb(200, 200, 200);
+}
+#loginform .loginspacer {
+background: #E9EBDF !important;
+padding: 10px 15px 10px 11px !important;
+}
+.loginheader {
+border-bottom-color: rgb(200, 200, 200);
+}
+#loginform .field {
+color: #777;
+}
+
+.txtclass
+{
+    font-family: Tahoma,Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000 ;
+    font-weight: normal;
+    text-decoration: none;
+    border: 1px solid #888888;
+}
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background-color: #6495ed;  
+    background: url('../images/BACKGROUND2.jpg');       
+    background-repeat:  repeat;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.inputbutton {
+border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    background: url('../images/button.png');
+    padding: 2px 5px 4px;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(60, 60, 60);
+    outline-width: thin;
+      
+     
+}
+.inputbutton:active {
+background: url(../images/button.png) 0 22px;
+color: rgb(80, 80, 80);
+}
+
+.matromonial {
+background-color: #e2f2fc;
+width: 945px;
+padding: 10px 20px 4px;
+position: relative;
+    top: 0px;
+    left: 0px;
+    font-family:"shruti","sans-serif";	
+    text-decoration: none;
+}
+.matromonial .matromonialline {
+font: arial;
+width: 900px;
+height: 10px;
+}
+
+
+.matromonial .matromonialprofile {
+background-color: #ffffff;
+font: arial;
+width: 900px;
+height: 300px;
+padding: 10px 10px 10px 10px;
+border-style: solid;
+border-color:Gray;
+border-bottom-width:medium;
+font-size:12px;
+}
+
+.matromonial .matromonialpfname {
+background-color: #ffffff;
+width: 800px;
+height: 10px;
+font-family: Arial;
+font-size:13px; 
+border-style: none;
+padding:  5px 10px 20px 10px;
+color:#32a6e8;
+}
+.matromonial .matromonialp_photo {
+background-color: #ffffff;
+float:left;
+width: 167px;
+height: 183px;
+padding: 0px 0px 0px 0px;
+border-style:none;
+}
+
+.matromonial .matromonialdetail {
+background-color: #ffffff;
+float:right;
+text-align:left;
+width: 80%;
+height: auto;
+padding: 0px 0px 0px 0px;
+border-style:none;
+font-family:Arial; 
+font-size:12px;
+}
+
+.matromonial  .matromonialdetail .matromonialdetline1 
+{
+float:left;
+width: 25%;
+height: 10px;
+color:#a1a3ab;
+padding:5px 0px 5px 0px;
+}
+.matromonial  .matromonialdetail .matromonialdetlinedd 
+{
+float:left;
+width: 1%;
+height: auto;
+color:#b1b3b9;
+padding:5px 0px 5px 0px;
+}
+.matromonial  .matromonialdetail .matromonialdetline2
+{
+width: 100%;
+height: 10px;
+padding:5px 0px 5px 0px;
+color:#72727d;
+}
+
+.matromonial  .matromonialdetail .matromonialdetreadmore
+{
+color:#72727d;
+}
+
+
+.ebusiness {
+background-color: #e2f2fc;
+width: 950px;
+position: relative;
+padding: 10px 20px 4px;
+}
+.ebusiness .ebusinessline {
+font: arial;
+width: 900px;
+}
+
+
+.ebusiness .ebusinessprofile {
+background-color: #ffffff;
+font: arial;
+width: 900px;
+height: 325px;
+border-style: solid;
+border-color:Gray;
+border-bottom-width:medium;
+padding: 10px 10px 10px 10px;
+}
+
+.ebusiness .ebusinessfname {
+background-color: #ffffff;
+width: 879px;
+height: 10px;
+border-style: none;
+padding:  5px 10px 20px 10px;
+color:#32a6e8;
+text-align: center;
+
+}
+.ebusiness .ebusiness_photo {
+background-color: #ffffff;
+float:left;
+width: 187px;
+height: 200px;
+padding: 0px 0px 0px 0px;
+border-style:none;
+}
+
+.ebusiness .ebusinessdetail {
+background-color: #ffffff;
+float:right;
+text-align:left;
+width: 80%;
+height: auto;
+padding: 0px 0px 0px 0px;
+border-style:none;
+font-family:Arial; 
+font-size:13px;
+}
+
+.ebusiness  .ebusinessdetail .ebusinessdetline1 
+{
+float:left;
+width: 25%;
+height: auto;
+color:#a1a3ab;
+padding:0px 0px 0px 0px;
+}
+.ebusiness  .ebusinessdetail .ebusinessdetlinedd 
+{
+float:left;
+width: 1%;
+height: auto;
+color:#b1b3b9;
+padding:0px 0px 0px 0px;
+}
+.ebusiness  .ebusinessdetail .ebusinessdetline2
+{
+font-family:Arial;
+font-size:13px; 
+width: 70%;
+height: auto;
+color:#72727d;
+padding:2px 0px 0px 0px;
+}
+.ebusiness  .ebusinessdetail .ebusinessdetline3
+{
+font-family:Arial;
+font-size:13px; 
+width: 70%;
+height: auto;
+color:#e63900;
+padding:2px 0px 0px 0px;
+
+}
+
+.ebusiness  .ebusinessdetail .ebusinessdetline4
+{
+font-family:Arial;
+font-size:13px; 
+width: 70%;
+height: auto;
+color:#ff0066;
+padding:2px 0px 0px 0px;
+
+}
+
+
+/* Custom dialog styles */
+#popup_container.style_1 {
+	font-family: Georgia, serif, arial;
+	color: #e2f2fc;
+	background: #005294;
+	border-color: #113F66;
+}
+			
+#popup_container.style_1 #popup_title {
+	color: #FFF;
+	font-weight: normal;
+	text-align: left;
+	background: #76A5CC;
+	border: solid 1px #005294;
+	padding-left: 1em;
+}
+			
+#popup_container.style_1 #popup_content {
+	background: none;
+}
+			
+#popup_container.style_1 #popup_message {
+	padding-left: 0em;
+}
+			
+#popup_container.style_1 INPUT[type='button'] {
+	border: outset 2px #76A5CC;
+	color: #A4C6E2;
+	background: #3778AE;
+}
+
+.headertitle
+{
+    font-family: Arial Black, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: Red ;
+    font-weight: normal;
+    text-decoration: none;
+     border: 0px solid #888888 ;
+     
+}
+
+
+.paging
+        {
+        }
+         
+         /* #00C157 */
+        .paging a
+        {
+            background-color: #ffebcc;
+            padding: 5px 7px;
+            text-decoration: none;
+            border: 1px solid #DC5807;
+        }
+        
+        /*    background-color: #E1FFEF;
+            color: #00C157;
+            border: 1px solid #00C157;
+         */
+        .paging a:hover
+        {
+            background-color: #ffebcc;
+            color: #ffffff ;
+            border: 1px solid #DC5807;
+        }
+         
+         
+        .paging span
+        {
+        background-color: #ffebcc;
+            padding: 5px 7px;
+            color: #000000 ;
+            border: 1px solid #DC5807;
+        }
+         
+
+        tr.paging
+        {
+            background: none !important;
+        }
+         
+        tr.paging tr
+        {
+            background: none !important;
+        }
+        tr.paging td
+        {
+            border: none;
+        }
+   
+   
+   .slider{padding-top:171px;}
+.mob-sub{ display:none;}
+.header{min-width:250px;}
+.float_search{position:fixed; z-index:1000; top:0px; right:0; height:30px; overflow:hidden}
+.goog-te-gadget img{display:inline;}
+.goog-te-gadget .goog-te-combo{margin-bottom:15px !important; width:100%}
+#:0.targetLanguage{margin-bottom:15px;}
+/* .float_search_mobile{display:none;} */

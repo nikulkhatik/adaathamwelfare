@@ -1,0 +1,33 @@
+UL.dropdown {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+UL.dropdown LI {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+UL.dropdown UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+UL.dropdown {
+	Z-INDEX: 597; POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FLOAT: left; PADDING-TOP: 0px
+}
+UL.dropdown LI {
+	FLOAT: left
+}
+UL.dropdown LI.hover {
+	Z-INDEX: 599; POSITION: relative; CURSOR: default
+}
+UL.dropdown LI:hover {
+	Z-INDEX: 599; POSITION: relative; CURSOR: default
+}
+UL.dropdown UL {
+	Z-INDEX: 598; POSITION: absolute; WIDTH: 100%; VISIBILITY: hidden; TOP: 100%; LEFT: 0px
+}
+UL.dropdown UL LI {
+	FLOAT: none
+}
+UL.dropdown UL UL {
+	TOP: 1px; LEFT: 99%
+}
+UL.dropdown LI:hover > UL {
+	VISIBILITY: visible
+}

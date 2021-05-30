@@ -1,0 +1,27 @@
+.coin-slider {
+	POSITION: relative; WIDTH: 960px; FLOAT: left; OVERFLOW: hidden
+}
+.coin-slider A {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; BORDER-TOP: medium none; BORDER-RIGHT: medium none; TEXT-DECORATION: none
+}
+.cs-buttons {
+	PADDING-BOTTOM: 0px; MARGIN: 20px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; FONT-SIZE: 0px; PADDING-TOP: 0px
+}
+.cs-buttons A {
+	TEXT-INDENT: -10000px; MARGIN: 0px 2px; WIDTH: 20px; BACKGROUND: url(../images/slide_p.png) no-repeat center center; FLOAT: left; HEIGHT: 20px; COLOR: #fff
+}
+.cs-buttons A.cs-active {
+	BACKGROUND-IMAGE: url(../images/slide_a.png); COLOR: #fff
+}
+.cs-title {
+	PADDING-BOTTOM: 16px; LINE-HEIGHT: 1.5em; PADDING-LEFT: 24px; WIDTH: 876px; PADDING-RIGHT: 60px; BACKGROUND: url(../images/overlay.png) left top; COLOR: #fff; FONT-SIZE: 15px; PADDING-TOP: 16px
+}
+.cs-title BIG {
+	FONT-SIZE: 20px
+}
+.cs-prev {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: url(../images/overlay.png) left top; COLOR: #fff; PADDING-TOP: 0px
+}
+.cs-next {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: url(../images/overlay.png) left top; COLOR: #fff; PADDING-TOP: 0px
+}

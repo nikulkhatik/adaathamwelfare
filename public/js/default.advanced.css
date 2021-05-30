@@ -1,0 +1,31 @@
+@import url( default.css );
+.dropdown {
+	WIDTH: 960px; BACKGROUND: url(../images/menu.png) no-repeat; HEIGHT: 36px; COLOR: #bd1e24; CLEAR: both; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+UL.dropdown LI A {
+	PADDING-BOTTOM: 7px; PADDING-LEFT: 28px; PADDING-RIGHT: 28px; DISPLAY: block; PADDING-TOP: 7px
+}
+UL.dropdown LI {
+	
+}
+UL.dropdown LI.dir {
+	
+}
+UL.dropdown UL LI.dir {
+	
+}
+UL.dropdown UL A {
+	WIDTH: 115px; BACKGROUND: #e5e1e2
+}
+UL.dropdown UL A:hover {
+	BACKGROUND-COLOR: #a5020a; COLOR: #ffffff
+}
+.active {
+	BACKGROUND-COLOR:Green; HEIGHT: 36px; COLOR: #ffffff; BORDER-RIGHT: #cccccc 1px solid
+}
+UL.dropdown LI:hover > A.dir {
+	BACKGROUND-COLOR: #a5020a; HEIGHT: 22px; COLOR: #fff
+}
+UL.dropdown UL LI:hover > A.dir {
+	BACKGROUND-COLOR: #76b900; COLOR: #fff
+}
